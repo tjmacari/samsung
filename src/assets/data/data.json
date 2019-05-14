@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "id": "ep1",
+            "title": "The Phantom Menace",
+            "desc": "Episode 1 in the Star Wars saga.",
+            "stars": ["Liam Neeson", "Ewan McGregor", "Natalie Portman"],
+            "rated": "PG",
+            "slide": "./src/assets/img/ep1.jpg",
+            "bg": "./src/assets/img/ep1-bg.jpg",
+            "year": 1999
+        },
+        {
+            "id": "ep2",
+            "title": "Attack of the Clones",
+            "desc": "Episode 2 in the Star Wars saga.",
+            "stars": ["Ewan McGregor", "Natalie Portman", "Hayden Christianson"],
+            "rated": "PG",
+            "slide": "./src/assets/img/ep2.jpg",
+            "bg": "./src/assets/img/ep2-bg.jpg",
+            "year": 2002
+        },
+        {
+            "id": "ep3",
+            "title": "Revenge of the Sith",
+            "desc": "Episode 3 in the Star Wars saga.",
+            "stars": ["Ewan McGregor", "Natalie Portman", "Hayden Christianson"],
+            "rated": "PG-13",
+            "slide": "./src/assets/img/ep3.jpg",
+            "bg": "./src/assets/img/ep3-bg.jpg",
+            "year": 2005
+        },
+        {
+            "id": "rogue",
+            "desc": "First anthology film in the Star Wars franchise.",
+            "title": "Rogue One",
+            "stars": ["Felicity Jones", "Diego Luna", "Alan Tudyk"],
+            "rated": "PG-13",
+            "slide": "./src/assets/img/rogue.jpg",
+            "bg": "./src/assets/img/rogue-bg.jpg",
+            "year": 2016
+        },
+        {
+            "id": "ep4",
+            "title": "A New Hope",
+            "desc": "Episode 4 in the Star Wars saga.",
+            "stars": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
+            "rated": "PG",
+            "slide": "./src/assets/img/ep4.jpg",
+            "bg": "./src/assets/img/ep4-bg.jpg",
+            "year": 1977
+        },
+        {
+            "id": "ep5",
+            "title": "The Empire Strikes Back",
+            "desc": "Episode 5 in the Star Wars saga.",
+            "stars": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
+            "rated": "PG",
+            "slide": "./src/assets/img/ep5.jpg",
+            "bg": "./src/assets/img/ep5-bg.jpg",
+            "year": 1980
+        },
+        {
+            "id": "ep6",
+            "title": "Return of the Jedi",
+            "desc": "Episode 6 in the Star Wars saga.",
+            "stars": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
+            "rated": "PG",
+            "slide": "./src/assets/img/ep6.jpg",
+            "bg": "./src/assets/img/ep6-bg.jpg",
+            "year": 1983
+        },
+        {
+            "id": "ep7",
+            "title": "The Force Awakens",
+            "desc": "Episode 7 in the Star Wars saga.",
+            "stars": ["Adam Driver", "Daisy Ridley", "John Boyega"],
+            "rated": "PG-13",
+            "slide": "./src/assets/img/ep7.jpg",
+            "bg": "./src/assets/img/ep7-bg.jpg",
+            "year": 2015
+        },
+        {
+            "id": "ep8",
+            "title": "The Last Jedi",
+            "desc": "Episode 8 in the Star Wars saga.",
+            "stars": ["Adam Driver", "Daisy Ridley", "John Boyega"],
+            "rated": "PG-13",
+            "slide": "./src/assets/img/ep8.jpg",
+            "bg": "./src/assets/img/ep8-bg.jpg",
+            "year": 2017
+        }
+    ]
+}

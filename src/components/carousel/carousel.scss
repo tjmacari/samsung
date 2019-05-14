@@ -1,0 +1,193 @@
+@import '~Styles/partials/all';
+
+.carousel {
+    .inline-text {
+        display: inline-block;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .block {
+        display: block;
+    }
+
+    .info {
+        left: 760px;
+        position: absolute;
+        top: 150px;
+
+        .title {
+            font-size: 5.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .slides {
+        height: 880px;
+        padding: 100px;
+        overflow: hidden;
+        white-space: nowrap;
+
+        .slide {
+            background-color: $black;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top center;
+            border: 5px solid $white;
+            display: inline-block;
+            margin-right: 50px;
+            height: 440px;
+            vertical-align: bottom;
+            width: 284px;
+
+            &.active {
+                border: 20px solid $white;
+                height: 880px;
+                width: 568px;
+            }
+
+            &.ep1 {
+                background-image: url('~Img/ep1.jpg');
+            }
+            &.ep2 {
+                background-image: url('~Img/ep2.jpg');
+            }
+            &.ep3 {
+                background-image: url('~Img/ep3.jpg');
+            }
+            &.ep4 {
+                background-image: url('~Img/ep4.jpg');
+            }
+            &.ep5 {
+                background-image: url('~Img/ep5.jpg');
+            }
+            &.ep6 {
+                background-image: url('~Img/ep6.jpg');
+            }
+            &.ep7 {
+                background-image: url('~Img/ep7.jpg');
+            }
+            &.ep8 {
+                background-image: url('~Img/ep8.jpg');
+            }
+            &.rogue {
+                background-image: url('~Img/rogue.jpg');
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mqExtraLarge) {
+    .carousel {
+
+        .inline-text {
+            font-size: 2rem;
+        }
+    
+        .info {
+            .title {
+                font-size: 4.5rem;
+                margin-bottom: 0.75rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mqLarge) {
+    .carousel {
+
+        .inline-text {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+    
+        .info {
+            .title {
+                font-size: 4rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mqMed) {
+    .carousel {
+
+        .inline-text {
+            font-size: 1.5rem;
+            margin-bottom: 0.1rem;
+        }
+    
+        .info {
+            left: 380px;
+            top: 70px;
+    
+            .title {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+        }
+    
+        .slides {
+            height: 440px;
+            padding: 50px;
+    
+            .slide {
+                border: 3px solid $white;
+                margin-right: 20px;
+                height: 220px;
+                width: 142px;
+    
+                &.active {
+                    border: 9px solid $white;
+                    height: 440px;
+                    width: 284px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mqSmall) {
+    .carousel {
+
+        .inline-text {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+
+        .info {
+            top: 55px;
+
+            .title {
+                font-size: 2rem;
+            }
+        }
+    
+        .slides {
+            .slide {
+                border: 3px solid $white;
+                margin-right: 20px;
+                height: 220px;
+                width: 142px;
+    
+                &.active {
+                    border: 9px solid $white;
+                    height: 440px;
+                    width: 284px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mqTiny) {
+    .carousel {
+        .info {
+            .actors {
+                display: none;
+            }
+        }
+    }
+}

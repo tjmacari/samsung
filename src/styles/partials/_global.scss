@@ -1,0 +1,57 @@
+$bold: 600;
+$mqTiny: 700px;
+$mqSmall: 1000px;
+$mqMed: 1450px;
+$mqLarge: 1600px;
+$mqExtraLarge: 1900px;
+$padding: 1rem;
+
+@mixin round-box {
+    border: 1px solid $white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+@mixin abs-fullsize {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@mixin bg-img {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+body {
+    background-color: $black;
+    background-image: url('~Img/bg.jpg');
+    background-position: middle;
+    background-repeat: no-repeat;
+    color: $white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0;
+    min-width: 560px;
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+
+    &:hover {
+        color: $secondary;
+    }
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.hide {
+    display: none;
+}
