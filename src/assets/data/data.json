@@ -6,8 +6,6 @@
             "desc": "Episode 1 in the Star Wars saga.",
             "stars": ["Liam Neeson", "Ewan McGregor", "Natalie Portman"],
             "rated": "PG",
-            "slide": "./src/assets/img/ep1.jpg",
-            "bg": "./src/assets/img/ep1-bg.jpg",
             "year": 1999
         },
         {
@@ -16,8 +14,6 @@
             "desc": "Episode 2 in the Star Wars saga.",
             "stars": ["Ewan McGregor", "Natalie Portman", "Hayden Christianson"],
             "rated": "PG",
-            "slide": "./src/assets/img/ep2.jpg",
-            "bg": "./src/assets/img/ep2-bg.jpg",
             "year": 2002
         },
         {
@@ -26,8 +22,6 @@
             "desc": "Episode 3 in the Star Wars saga.",
             "stars": ["Ewan McGregor", "Natalie Portman", "Hayden Christianson"],
             "rated": "PG-13",
-            "slide": "./src/assets/img/ep3.jpg",
-            "bg": "./src/assets/img/ep3-bg.jpg",
             "year": 2005
         },
         {
@@ -36,8 +30,6 @@
             "title": "Rogue One",
             "stars": ["Felicity Jones", "Diego Luna", "Alan Tudyk"],
             "rated": "PG-13",
-            "slide": "./src/assets/img/rogue.jpg",
-            "bg": "./src/assets/img/rogue-bg.jpg",
             "year": 2016
         },
         {
@@ -46,8 +38,6 @@
             "desc": "Episode 4 in the Star Wars saga.",
             "stars": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
             "rated": "PG",
-            "slide": "./src/assets/img/ep4.jpg",
-            "bg": "./src/assets/img/ep4-bg.jpg",
             "year": 1977
         },
         {
@@ -56,8 +46,6 @@
             "desc": "Episode 5 in the Star Wars saga.",
             "stars": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
             "rated": "PG",
-            "slide": "./src/assets/img/ep5.jpg",
-            "bg": "./src/assets/img/ep5-bg.jpg",
             "year": 1980
         },
         {
@@ -66,8 +54,6 @@
             "desc": "Episode 6 in the Star Wars saga.",
             "stars": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
             "rated": "PG",
-            "slide": "./src/assets/img/ep6.jpg",
-            "bg": "./src/assets/img/ep6-bg.jpg",
             "year": 1983
         },
         {
@@ -76,8 +62,6 @@
             "desc": "Episode 7 in the Star Wars saga.",
             "stars": ["Adam Driver", "Daisy Ridley", "John Boyega"],
             "rated": "PG-13",
-            "slide": "./src/assets/img/ep7.jpg",
-            "bg": "./src/assets/img/ep7-bg.jpg",
             "year": 2015
         },
         {
@@ -86,8 +70,6 @@
             "desc": "Episode 8 in the Star Wars saga.",
             "stars": ["Adam Driver", "Daisy Ridley", "John Boyega"],
             "rated": "PG-13",
-            "slide": "./src/assets/img/ep8.jpg",
-            "bg": "./src/assets/img/ep8-bg.jpg",
             "year": 2017
         }
     ]
