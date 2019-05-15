@@ -1,5 +1,8 @@
 # Samsung Smart TV experiment
-Simple carousel built in ReactJS/Webpack which allows the user to scroll through Star Wars movies, built for Samsung TVs.  Tested using Tizen Studio Web Simluator Application (Samsung TV).  This web application was built using Webpack, so the deployed code resides in the /dist folder.
+
+Simple carousel for Tizen Samsung TV simulator / Samsung Smart TV's, built in ReactJS/Webpack/SASS.
+
+This project was built using Webpack, so the web application is bundled in the /dist folder.
 
 To view local copy in /dist folder:
 * Navigate to /dist folder
@@ -12,9 +15,11 @@ To preview in Tizen Studio Web Simulator Application (Samsung TV):
 * Run As > Tizen Web Simulator Application (Samsung TV)
 
 To run the code in a local web server:
-* Navigate to your terminal
-* "npm install" (the dependencies in package.json will be download)
-* "npm run start" (will start the web application at localhost:8080)
+* Open your terminal
+* Checkout source code ("git clone https://github.com/tjmacari/samsung.git")
+* Open "samsung" folder ("cd samsung")
+* Download dependencies ("npm install")
+* Start web app on localhost:8080 ("npm run start")
 * In your browser, navigate to localhost:8080 to view the web application
 
 To scroll left/right through the movies:
