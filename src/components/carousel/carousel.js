@@ -20,23 +20,26 @@ class TmCarousel extends TmComponent {
     }
 
     _update(e) {
+        const rightKeyCode = 39;
+        const leftKeyCode = 37;
+
         // Calculate index
         let index = this.state.index;
         const len = this.props.movies.length;
-        if(e.key === "ArrowRight") {
+        if(e.keyCode === rightKeyCode) { // Right arrow on remote / keyboard
             index++;
             if(index === len) {
                 index = 0;
             }
-        } else if(e.key === "ArrowLeft") {
+        } else if(e.keyCode === leftKeyCode) { // Left arrow on remote / keyboard
             index--;
             if(index < 0) {
                 index = len - 1;
             }
         }
 
+        // Update slide distance based on window size
         const windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-        console.log(windowWidth);
 
         // Adjust carousel horizontal position
         const imgSize = (windowWidth > 1450) ? 344 : 168; // Slide width differs based on media query
