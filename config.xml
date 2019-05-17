@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://github.com/tjmacari/samsung" version="1.0.0" height="720" width="1280" viewmodes="fullscreen">
+    <tizen:application id="qFhna0ZHf9.ReactCarousel" package="qFhna0ZHf9" required_version="3.0"/>
+    <author href="http://portfolio.tjmacari.com" email="tjmacari@gmail.com">Thomas Macari</author>
+    <content src="index.html"/>
+    <description>Navigate left/right through Star Wars movies in Samsung TV Emulator using the remote control left/right arrows</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>ReactCarousel</name>
+    <tizen:profile name="tv"/>
+</widget>
