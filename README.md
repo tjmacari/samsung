@@ -8,6 +8,6 @@ To run the application in the Tizen Studio Samsung TV Simulator:
 * Download Tizen Studio (https://developer.tizen.org/development/tizen-studio/download)
 * Checkout the code from this repository
 * Run Tizen Studio and import the packed application (ie. File -> Open Projects from File System)
-* Locate packed application locally at "dist/SamsungCarouselTest.wgt"
+* Select the packaged project file located at "dist/SamsungCarouselTest.wgt"
 * Run the project as a "Tizen Web Simulator Application (Samsung TV)"
 * Once in the simulator, the user can scroll left/right using either the virtual remote control or the keyboard keys
