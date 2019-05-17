@@ -1,26 +1,13 @@
 # Samsung Smart TV experiment
 
-Simple carousel for Tizen Samsung TV simulator / Samsung Smart TV's, built in ReactJS/Webpack/SASS.
+This is a simple ReactJs/Webpack/ES6/SASS carousel experiment which runs on Samsung Smart TV's through Tizen Studio.
 
-This project was built using Webpack, so the web application is bundled in the /dist folder.
+This application was built with Webpack, so the parsed and minified website is located in the "/dist" folder.  Since the site is bundled, the index.html file is directly executable from that folder.  The contents of the "/dist" folder were also built and packaged into a Tizen Studio project file called "SamsungCarouselTest.wgt".
 
-To view local copy in /dist folder:
-* Navigate to /dist folder
-* Execute index.html file
-
-To preview in Tizen Studio Web Simulator Application (Samsung TV):
-* Create a new Samsung TV project in Tizen Studio
-* Overwrite default files with files from /dist folder
-* Right-click on the project in the project viewer
-* Run As > Tizen Web Simulator Application (Samsung TV)
-
-To run the code in a local web server:
-* Open your terminal
-* Checkout source code ("git clone https://github.com/tjmacari/samsung.git")
-* Open "samsung" folder ("cd samsung")
-* Download dependencies ("npm install")
-* Start web app on localhost:8080 ("npm run start")
-* In your browser, navigate to localhost:8080 to view the web application
-
-To scroll left/right through the movies:
-* Simply use the Left/Right arrows on your Tizen Studio Web Simulator Application remote control, or your keyboard to scroll through the movies.
+To run the application in the Tizen Studio Samsung TV Simulator:
+* Download Tizen Studio (https://developer.tizen.org/development/tizen-studio/download)
+* Checkout the code from this repository
+* Run Tizen Studio and import the packed application (ie. File -> Open Projects from File System)
+* Locate packed application locally at "dist/SamsungCarouselTest.wgt"
+* Run the project as a "Tizen Web Simulator Application (Samsung TV)"
+* Once in the simulator, the user can scroll left/right using either the virtual remote control or the keyboard keys
